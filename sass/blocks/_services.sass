@@ -1,0 +1,47 @@
+.services
+    background: #F8F8F8
+    &__row
+        display: flex
+        justify-content: center
+        flex-wrap: wrap
+        gap: 60px
+    &__item
+        position: relative
+        max-width: 360px
+        min-height: 577px
+        background: #fff
+        padding: 45px 30px 140px
+    &__item-title
+        text-align: center
+        color: #01353E
+        font-size: 36px
+        font-weight: 400
+        line-height: 111.111%
+    &__item-list
+        margin-top: 58px
+
+    &__item-point
+        color: $main-color
+        font-size: 14px
+        line-height: 128.571%
+        letter-spacing: 0.6px
+        &:not(:last-child)
+            margin-bottom: 20px
+
+    &__item-price
+        position: absolute
+        bottom: 45px
+        left: 50%
+        transform: translateX(-50%)
+        color: #01353E
+        font-size: 36px
+        line-height: 111.111%
+        text-align: center
+        &::after
+            content: '$'
+            color: #01353E
+            font-size: 18px
+            line-height: 122.222%
+            position: relative
+            left: 5px
+            bottom: 5px

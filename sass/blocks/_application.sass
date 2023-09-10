@@ -1,0 +1,50 @@
+.application
+	letter-spacing: 0.6px
+	&__row
+		display: flex
+		gap: 30px
+	&__form
+		display: flex
+		flex-direction: column
+		max-width: 570px
+		flex-grow: 1
+		input
+			padding: 16px 0px
+		textarea
+			resize: none
+			margin-top: 53px
+			height: 156px
+			padding: 0
+		input, textarea
+			border: none
+			border-bottom: 2px solid #DADADA
+			font-size: 18px
+			line-height: 1
+			width: 100%
+			&::placeholder
+				max-width: 260px
+				color: #00B2A0	
+	&__contacts
+		background: #F8F8F8
+		padding: 50px
+		display: flex
+		flex-direction: column
+		gap: 65px
+		width: 50%
+		color: $main-color
+		font-size: 24px
+		line-height: 125%
+		min-height: 460px
+	&__social
+		display: flex
+		justify-content: center
+		gap: 10px
+		margin-top: 120px
+	&__link
+		color: $main-color
+		font-size: 24px
+		line-height: 75%
+		&:hover
+			color: #00B2A0
+
+

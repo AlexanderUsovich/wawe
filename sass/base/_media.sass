@@ -1,0 +1,337 @@
+@media (max-width: 1800px)
+	.map
+		&__inner
+			width: 100%
+@media (min-width: 1400px)
+	//.col-xxl-
+	.container
+		max-width: 1230px 
+
+@media (max-width: 1399px)
+	//.col-xl-
+	.container
+		max-width: 1230px 
+	.map
+		&__inner
+			height: calc( 100vh - 300px )
+
+@media (max-width: 1199px)
+	//.col-lg-
+	.container
+		max-width: 960px 
+	.title
+		font-size: 37px
+	.header
+		&__menu
+			justify-content: flex-end
+	.rate
+		gap: 170px
+	.offers
+		&__items
+			flex-direction: column
+			align-items: center
+		&__item
+			width: 80%
+			flex: 0 0 auto
+	.peaks
+		&__text
+			max-width: 400px
+	.gallery
+		&__blockqoute
+			cite
+				margin-left: 630px
+
+@media (max-width: 991px) 
+	//.col-md-
+	.container
+		max-width: 720px
+	.section-padding
+		padding: 150px 0
+		&--top
+			padding-top: 0
+	.padding-bottom
+		padding: 0 0 150px
+	.margin-top
+		margin-top: 150px
+	.title
+		font-size: 36px
+		&--mb
+			margin-bottom: 75px
+	.header
+		&__menu
+			gap: 30px
+			&-link
+				font-size: 20px
+	.maintitle
+		font-size: 150px
+	.about
+		&__text
+			gap: 20px 90px
+	.offers
+		&__items
+			gap: 50px
+	.rate
+		flex-direction: column
+		gap: 50px
+		&__percent
+			flex: 0 0 auto
+	.peaks
+		&__inner, &__text
+			max-width: 100%
+		&__title
+			left: 50%
+			transform: translateX(-50%)
+		&__bg
+			display: none
+	.gallery
+		&__blockqoute
+			blockquote
+				font-size: 30px
+			cite
+				font-size: 12px
+				margin-left: 450px
+		&__video
+			&-inner
+				height: 400px
+		
+		&__numbers
+			&-inner
+				gap: 75px
+			&-item
+				width: 30%
+		&__video-link
+			img
+				width: 60px
+	.slider
+		&__item-title
+			font-size: 40px
+		&__item-link
+			width: 100%
+			margin-left: 0
+	.map
+		&__inner
+			height: calc( 100vh - 300px )
+	.application
+		&__contacts
+			font-size: 19px
+
+@media (max-width: 767px) 
+	//.col-sm-
+	.container
+		max-width: 540px
+	.section-padding 
+		padding: 100px 0
+		&--top
+			padding-top: 0
+	.padding-bottom
+		padding: 0 0 100px
+	.margin-top
+		margin-top: 100px
+	.title
+		font-size: 31px
+		&--mb
+			margin-bottom: 50px
+		&::after
+			top: auto
+	.header
+		&__logo
+			top: 24px
+		.btn-back
+			display: block
+		&__top
+			position: fixed
+			top: 0
+			left: -100%
+			width: 100%
+			background: #000
+			transition: .5s
+			&--active
+				left: 0
+		&__menu
+			flex-direction: column
+			align-items: center			
+			// &-btn
+			// 	display: block
+	.hamburger
+		display: block
+	.maintitle
+		font-size: 120px
+	.about
+		&__text
+			display: block
+			p:not(:first-child)
+				margin-top: 15px
+	.gallery
+		&__filter-btn
+			font-size: 19px
+		&__blockqoute
+			cite
+				margin-left: 260px
+		&__video
+			&-inner
+				height: 260px
+		&__numbers-item
+			font-size: 50px
+		&__video-link
+			img
+				width: 50px
+	.team
+		&__row
+			gap: 40px
+		&__title-name
+			margin-top: 20px
+	.services
+		&__item-title
+			font-size: 28px
+	.map
+		&__inner
+			height: calc( 80vh - 200px )
+	.application
+		&__row
+			flex-direction: column
+			gap: 80px
+		&__contacts
+			width: 100%
+		&__social
+			margin-top: 80px
+
+@media (max-width: 575px) 
+	//.col-
+	.container
+		max-width: 100%
+	.section-padding 
+		padding: 80px 0
+		&--top
+			padding-top: 0
+	.padding-bottom
+		padding: 0 0 80px
+	.margin-top
+		margin-top: 80px
+	.title
+		font-size: 26px
+		&--mb
+			margin-bottom: 40px
+	.btn
+		font-size: 21px
+	.maintitle 
+		font-size: 70px
+		margin-top: 170px
+		&__descr
+			font-size: 14px
+	.header
+		&__content-icon
+			margin-top: 300px
+	.offers
+		&__item
+			width: 100%
+			max-width: 350px
+		&__subtitle
+			font-size: 19px
+			padding-left: 30px
+	.rate
+		&__percent
+			width: 100%
+	.icon
+		&-rate1
+			width: 160px
+		&-rate2
+			width: 195px
+		&-rate3
+			width: 230px
+	.gallery
+		&__filter-btn
+			font-size: 16px
+		&__more
+			font-size: 20px
+			padding: 23px 60px
+		&__blockqoute
+			blockquote
+				font-size: 25px
+			cite
+				margin-left: 145px
+				margin-top: 10px
+		&__video
+			&-inner
+				height: 200px
+		&__numbers
+			&-inner
+				gap: 65px
+	.slider
+		&__item-link
+			height: 400px
+		&__item-title
+			font-size: 34px
+	.team
+		&__row
+			gap: 35px
+		&__title-name
+			margin-top: 15px
+	.services
+		&__item-title
+			font-size: 24px
+	.map
+		&__inner
+			height: calc( 60vh - 160px )
+	.application
+		&__contacts
+			padding: 30px
+			gap: 50px
+			min-height: 400px
+		&__social
+			flex-direction: column
+			align-items: center
+			gap: 25px
+			margin-top: 60px
+
+@media (max-width: 420px)
+	.gallery
+		&__numbers-item
+			width: 100%
+	.btn
+		max-width: 350px
+		width: 100%
+
+
+@media (max-width: 320px)
+	.icon
+		&-rate1
+			width: 125px
+		&-rate2
+			width: 165px
+		&-rate3
+			width: 190px
+	.rate
+		&__percent-top
+			font-size: 20px
+	.gallery
+		&__filter-btns
+			gap: 10px
+		&__filter-btn
+			font-size: 14px
+		&__more
+			font-size: 18px
+			padding: 23px 50px
+		&__blockqoute
+			cite
+				margin-left: 100px
+	.slick-dots
+		gap: 10px
+		button
+			width: 10px
+			height: 10px
+	.team
+		&__row
+			gap: 20px
+		&__title-name
+			margin-top: 10px
+	.application
+		&__row
+			gap: 60px
+		&__contacts
+			padding: 25px
+			gap: 30px
+		&__social
+			font-size: 22px
+	.btn
+		&--application
+			margin-top: 60px

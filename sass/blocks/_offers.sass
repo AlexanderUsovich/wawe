@@ -1,0 +1,59 @@
+.offers
+	background: #F8F8F8
+	color: $main-color
+	&__title
+		max-width: 90%
+	&__items
+		display: flex
+		justify-content: space-between
+		gap: 75px
+	&__item
+		flex-basis: 350px
+		
+	&__subtitle
+		font-size: 24px
+		line-height: 116.667%
+		letter-spacing: 0.6px
+		font-weight: 400
+		padding-left: 70px
+		height: 56px
+		display: flex
+		align-items: center
+		svg
+			margin-right: 10px
+	&__descr
+		font-size: 14px
+		font-weight: 300
+		line-height: 128.571%
+		letter-spacing: 0.6px
+		margin-top: 10px
+	&__rate
+		margin-top: 100px
+
+.rate
+	display: flex
+	justify-content: space-between
+	gap: 254px
+	&__percent
+		flex-basis: 350px
+		flex-shrink: 0     
+		&-item
+			letter-spacing: 0.6px
+			&:not(:first-child)
+				margin-top: 18px		
+		&-top
+			font-size: 24px
+			line-height: 75%
+			svg
+				margin: 0 10px 2px 0
+		&-bottom
+			font-size: 14px
+			font-weight: 300
+			line-height: 128.571%
+	&__advantages
+		font-size: 14px
+		font-weight: 300
+		line-height: 128.571%
+		letter-spacing: 0.6px
+		p:not(:first-child)
+			margin-top: 30px
