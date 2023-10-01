@@ -1,5 +1,5 @@
 .header
-	background: url('../images/header-bg.jpg') no-repeat center/cover
+	background: image-set("../images/header-bg.avif" type("image/avif"), "../images/header-bg.webp" type("image/webp"), "../images/header-bg.jpg" type("image/jpeg")) no-repeat center/cover
 	padding-bottom: 90px
 	.btn-back
 		display: none
@@ -31,13 +31,6 @@
 			letter-spacing: 0.6px
 			display: block
 			padding-bottom: 3px
-		// &-btn
-		// 	position: fixed
-		// 	z-index: 10
-		// 	top: 45px
-		// 	right: 30px
-		// 	display: none
-		// 	fill: #fff
 	&__content-inner
 		display: flex
 		flex-direction: column
@@ -55,6 +48,7 @@
 	&__descr
 		color: #000
 		font-size: 24px
+		text-align: center
 		letter-spacing: 0.6px
 
 .back-top

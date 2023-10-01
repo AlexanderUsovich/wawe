@@ -53,14 +53,14 @@
 			margin-left: 760px	
 	&__video-inner
 		height: 600px
-		background: url('../images/gallery/video-poster.jpg') no-repeat center/cover
+		background: image-set("../images/gallery/video-poster.avif" type("image/avif"), "../images/gallery/video-poster.webp" type("image/webp"), "../images/gallery/video-poster.jpg" type("image/jpeg")) no-repeat center/cover
 		display: flex
 		justify-content: center
 		align-items: center
 	&__video-link
-		text-align: center
-
-
+		svg
+			width: 75px
+			height: 88px
 	&__numbers-inner
 		display: flex
 		justify-content: center

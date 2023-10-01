@@ -57,6 +57,8 @@
 		font-size: 36px
 		&--mb
 			margin-bottom: 75px
+		&::after
+			top: auto
 	.header
 		&__menu
 			gap: 30px
@@ -131,8 +133,6 @@
 		font-size: 31px
 		&--mb
 			margin-bottom: 50px
-		&::after
-			top: auto
 	.header
 		&__logo
 			top: 24px
@@ -164,6 +164,9 @@
 	.gallery
 		&__filter-btn
 			font-size: 19px
+		&__content-item
+			&:hover::after
+				display: none
 		&__blockqoute
 			cite
 				margin-left: 260px
@@ -194,6 +197,9 @@
 			width: 100%
 		&__social
 			margin-top: 80px
+		&__link
+			&:hover
+				color: $main-color
 
 @media (max-width: 575px) 
 	//.col-
@@ -219,6 +225,7 @@
 		&__descr
 			font-size: 14px
 	.header
+		padding-bottom: 50px
 		&__content-icon
 			margin-top: 300px
 	.offers
@@ -237,7 +244,7 @@
 		&-rate2
 			width: 195px
 		&-rate3
-			width: 230px
+			width: 215px
 	.gallery
 		&__filter-btn
 			font-size: 16px
@@ -250,9 +257,11 @@
 			cite
 				margin-left: 145px
 				margin-top: 10px
-		&__video
-			&-inner
-				height: 200px
+		&__video-inner
+			height: 200px
+		&__video-link
+			svg
+				height: 55px
 		&__numbers
 			&-inner
 				gap: 65px

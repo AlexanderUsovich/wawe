@@ -10,26 +10,26 @@ window.addEventListener('DOMContentLoaded', function() {
         // Проверяем тот ли это элемент, который нам нужен
         if(target.classList.contains('header__menu-link')) {
             for(let i = 0; i < menuItem.length; i++) {
-            headerTop.classList.remove('header__top--active');
-            headerBtn.classList.remove('header__menu-btn--active');
+                hamb.classList.remove('hamburger--active');
+                headerTop.classList.remove('header__top--active');
+                headerBtn.classList.remove('header__menu-btn--active');
             }
         }
     });
 
     const hamb = document.querySelector('.hamburger');
     // let headerBtn = document.querySelector('.header__menu-btn');
-    let headerTop = document.querySelector('.header__top');
+    const headerTop = document.querySelector('.header__top');
 
     hamb.addEventListener('click', function() {
         hamb.classList.toggle('hamburger--active');
         headerTop.classList.toggle('header__top--active');
-
     })
 
 })
 $(function(){
     
-    $(".header__menu a").on("click", function (event) {
+    $(".header__menu a, .footer__logo, .header__content-icon").on("click", function (event) {
 		//отменяем стандартную обработку нажатия по ссылке
 		event.preventDefault();
 
